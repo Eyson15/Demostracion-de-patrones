@@ -3,7 +3,7 @@ using System.Threading;
 using System.Windows.Forms;
 
 namespace Semana_13_DemoPatronProductorConsumidor
-{
+{//ejemplo para clonar con contraseña jajaja my name is eysonnnnnn ni
     public partial class FormCafeteria : Form
     {
         private int contadorId = 1; // Contador para asignar IDs únicos
@@ -77,6 +77,11 @@ namespace Semana_13_DemoPatronProductorConsumidor
                     producto.HoraPreparacion
                 );
             }
+        }
+
+        private void FormCafeteria_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

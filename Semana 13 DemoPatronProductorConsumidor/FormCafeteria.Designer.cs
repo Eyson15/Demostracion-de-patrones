@@ -143,6 +143,7 @@
             Controls.Add(panel1);
             Name = "FormCafeteria";
             Text = "FormCafeteria";
+            Load += FormCafeteria_Load;
             panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dgvBarra).EndInit();
             panel1.ResumeLayout(false);
